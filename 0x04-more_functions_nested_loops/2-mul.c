@@ -2,7 +2,8 @@
 
 /**
 * mul - multiplication
-* @c: parameter to mul
+* @a: first number
+* @b: second number
 * Return: int
 */
 int mul(int a, int b)
