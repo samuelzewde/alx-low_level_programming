@@ -7,5 +7,11 @@ include "main.h"
 */
 int _isupper(int c)
 {
-        return (c >= 65 && c <= 90);
+        if ((c >= 65) && (c <= 9)0)
+	{
+		return (1);
+	}
+	else{
+		return (0);
+	}
 }
