@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-* main - prints the number
-* Return: Always 0 (Success)
-*/
+ * main - prints the numbers 
+ * Return: Always 0
+ */
 int main(void)
 {
 	int i;
