@@ -1,8 +1,9 @@
-#incude "main.h"
+#include "main.h"
 
 /**
- * reset_to_98 - set pointer to 98
+ * reset_to_98 - set pointer value to 98
  * @n: pointer parameter
+ *
  * Return: void
  */
 
