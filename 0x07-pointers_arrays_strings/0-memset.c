@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * _memset - fills the first n bytes of the memory
 * @s: pointer
@@ -11,10 +12,9 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	int a = 0;
 
-	while (a < n)
+	for (a;a < n; a++)
 	{
-		s[i] = b;
-		a++;
+		s[a] = b;
 	}
 	return (s);
 }
