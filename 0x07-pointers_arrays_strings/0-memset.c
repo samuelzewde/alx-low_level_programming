@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
-* _memset - fills the first n bytes of the memory
-* @s: pointer
-* @b: data
+* _memset - a function that replaces values of an array
+*@s: pointer to char params
+* @b: data to change
 * @n: index
-* Return: char
+* Return: *s
 */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int a;
+	unsigned int i;
 
-	for (a = 0; a < n; a++)
+	for (i = 0; i < n; i++)
 	{
-		s[a] = b;
+		s[i] = b;
 	}
 	return (s);
 }
